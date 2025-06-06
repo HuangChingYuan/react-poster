@@ -15,7 +15,7 @@ function Modal({ children }) {
       />
       <dialog
         open
-        className="border-none rounded-md shadow-md p-0 overflow-hidden z-[1]"
+        className="border-none rounded-md shadow-md p-0 overflow-hidden z-[1] place-self-center"
       >
         {children}
       </dialog>
